@@ -1,0 +1,94 @@
+body { 
+    background-image: url(./triangles-wallpaper-3200x1200_90.jpg);
+    width: 99%;
+    height: 1400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.Cards {
+    display: flex;
+    flex-wrap:wrap ;
+    width: 100%;
+    justify-content: center;
+}
+.contt{
+    width: 19%;
+    background-color: rgba(25, 210, 201, 0.9);
+    margin: 25px;
+    height: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(220, 26, 100);
+}
+.imggg{
+    width: 100%;
+    height: 30%;
+}
+.bran-title{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 50px;
+   align-items: center;
+}
+.pp{
+    height: 80px;
+    color: rgb(200, 255, 0);
+}
+.spann{
+    width: 18%;
+   margin: 0 42%;
+   font-size: 20px;
+  box-shadow: 0px  0px  8px 1px rgba(10, 9, 9, 0.922)  ;
+  border-radius: 5px;
+}
+
+.BAY{
+    width: 50%;
+    margin:  20px  25%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    box-shadow: 0px 0px 10px 3px black ;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.BAY:hover{
+    width: 60%;
+    margin:  20px  20%;
+    height: 35px;
+    border-radius: 15px;
+    color: rgb(99, 255, 9);
+    background-color: black;
+    box-shadow: 0px 0px 10px 3px rgb(99, 255, 9);
+
+}
+.input  { 
+     width: 60% ;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20%;
+    
+}
+.input button{
+    border: 1px solid black ;
+    border-radius: 40px;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    transition: .7s;
+}
+.input button:hover{
+    border: 1px solid rgb(246, 17, 17) ;
+    border-radius: 40px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color:  rgb(246, 17, 17) ;
+    box-shadow: 0px 0px 10px 3px white;
+} 
